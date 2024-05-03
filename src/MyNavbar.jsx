@@ -11,10 +11,7 @@ const MyNavbar = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
           </Nav>
-          <Nav>
-            <Nav.Link href="#cart">Cart</Nav.Link>
-            {/* You can add more links/buttons here */}
-          </Nav>
+        
         </Navbar.Collapse>
       </Container>
     </Navbar>

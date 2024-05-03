@@ -183,7 +183,7 @@ const FirestoreExample = () => {
     <Card.Title style={{ color: 'white' }}>{item.name}</Card.Title>
     <Card.Text style={{ color: 'white' }}>Price: ${item.price}</Card.Text>
   </div>
-  <Button variant="primary" style={{ color: 'black', backgroundColor: '#FFD700', alignSelf: 'flex-end' }} onClick={() => handleButtonClick(item.id)}>Add to Cart</Button>
+  <Button variant="primary" style={{ color: 'black', backgroundColor: '#FFD700', alignSelf: 'flex-end' }} onClick={() => handleButtonClick(item.id)}>View Details</Button>
 
 </Card.Body>
 
