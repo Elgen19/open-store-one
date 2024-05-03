@@ -42,11 +42,7 @@ const ProductDetail = () => {
               <p><strong>Category:</strong> {product.category}</p>
             </div>
           </div>
-          <div className="text-left"> {/* Changed text-center to text-left */}
-            <Button variant="primary" size="lg">
-              <FaCartPlus /> Add to Cart {/* Adding the cart icon */}
-            </Button>
-          </div>
+         
         </Col>
       </Row>
     </Container>
